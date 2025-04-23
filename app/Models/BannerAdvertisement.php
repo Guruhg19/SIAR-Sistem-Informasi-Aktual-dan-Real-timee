@@ -1,0 +1,15 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class BannerAdvertisement extends Model
+{
+    protected $fillable = [
+        'link',
+        'is_active',
+        'type',
+        'thumbnail'
+    ];
+}
